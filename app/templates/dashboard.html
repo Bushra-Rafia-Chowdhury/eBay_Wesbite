@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div class>
+  <div >
+    <h2 class="w3-large w3-text-red"><b>
+      <a class="nav-link" href="{% url 'additem' %}">
+        <center><p >Create an auction item</p></center>
+      </a>
+        <table class="table">
+            <thead class=" text-primary">
+            <th>prod_name</th>
+            <th>prod_description</th>
+            <th>min_bid_price </th>
+            <th>end_date_time</th>
+            </thead>
+
+            <tbody>
+            {% csrf_token %}
+            {% for Item in Item %}
+            <tr>
+                <td>{{ Item.prod_name }}</td>
+                <td>{{ Item.prod_description }}</td>
+                <td>{{ Item.min_bid_price }}</td>
+                <td>{{ Item.end_date_time }}"></td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+
+    </b></h2>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+  </div>
+</div>
+
+<a class="nav-link" href="{% url 'logout' %} ">
+    <p >Log Out</p>
+</a>
+</body>
+</html>
