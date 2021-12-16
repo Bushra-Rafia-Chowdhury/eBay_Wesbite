@@ -8,7 +8,7 @@ Product Name, Product Description, Minimum Bid Price, and Auction
 End DateTime.
 
 
-Step 6: I make everything looks pretty.
+Step 6: I tried to make everything looks pretty.
 
 
 Step 7:For deploying it in Heroku, after ‘git push Heroku main’ command there arises an error. E.g;
