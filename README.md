@@ -1,6 +1,8 @@
 # eBay_Wesbite
 
 In Step 1: I can able to do this step. At first, I do it Django crispy form for authentication later I notice that here no complex authentication is needed, so it is simple for me to do this step.
+
+
 Step 2:After login in dashboard page, I can able to allows the user to create an auction item, for this, I added a form that takes the input input
 Product Name, Product Description, Minimum Bid Price, and Auction
 End DateTime.
