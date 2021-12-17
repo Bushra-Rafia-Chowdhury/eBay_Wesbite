@@ -21,5 +21,8 @@ error: failed to push some refs to 'https://git.heroku.com/djangotask005.git'
 G:\eBay_Wesbite\eBay>
 
 
-I’m tried a lot for deploying my Django app on Heroku later unable to reach steps 3, 4, and 5. 
-
+I’m tried a lot for deploying my Django app on Heroku later unable to reach steps 3, 4, and 5. I tried to solve this from here: https://www.onooks.com/django-app-heroku-deployment-app-not-compatible-with-buildpack/
+Soloution: 
+Step 1) First setup the buildpack (programming-language )
+Step 2) git init and currently used directory is different, so this error is still thrown “App not compatible with buildpack:”
+But unfortunately it could not fixed.
